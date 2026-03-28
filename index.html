@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothees.Tone | Feel The Trend - Uruguay</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="imagenes/logo.jpg" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo fade-in-text">
+                Clothees.<span>Tone</span>
+            </div>
+            <ul class="nav-links">
+                <li><button class="filter-btn active" data-category="todos">Inicio</button></li>
+                <li><button class="filter-btn" data-category="pantalones">Pantalones</button></li>
+                <li><button class="filter-btn" data-category="buzos">Buzos</button></li>
+                <li><button class="filter-btn" data-category="bikinis">Bikinis</button></li>
+                <li><button class="filter-btn" data-category="bodys">Bodys</button></li>
+                <li><button class="filter-btn" data-category="vestidos">Vestidos</button></li>
+                <li><button class="filter-btn" data-category="calzado">Calzado</button></li>
+            </ul>
+            <div class="header-actions">
+                <div class="cart-icon" id="cart-toggle">
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                    <span id="cart-count">0</span>
+                </div>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content container">
+            <h1>Tu estilo, <br>tu sintonía.</h1>
+            <p>Ropa con el estilo que buscas sin tener un precio desorbitado.</p>
+            <a href="#productos" class="btn-hero">Ver Novedades</a>
+        </div>
+    </section>
+
+    <main class="container" id="productos">
+        <div class="section-title">
+            <h2>Nuestra Colección</h2>
+            <p>Filtrar por categoría:</p>
+        </div>
+
+        <div class="products-grid" id="products-container"></div>
+    </main>
+
+    <div id="cart-modal" class="cart-sidebar">
+        <div class="cart-sidebar-content">
+            <div class="cart-sidebar-header">
+                <h3>Tu Carrito</h3>
+                <span class="close-cart">&times;</span>
+            </div>
+            <div id="cart-items" class="cart-items-container"></div>
+            <div class="cart-sidebar-footer">
+                <div class="total-line">
+                    <span>Total:</span>
+                    <span class="total-price">$<span id="total-price">0</span></span>
+                </div>
+                <button id="checkout-btn" class="btn-checkout">Finalizar Pedido (WhatsApp)</button>
+            </div>
+        </div>
+    </div>
+
+   <footer>
+    <div class="container footer-content">
+        <div class="footer-logo">
+            Clothees<span>.Tone</span>
+            <p>Emprendimiento uruguayo 🇺🇾</p>
+        </div>
+        <div class="footer-links">
+            <h4>Contacto</h4>
+           <div class="social-icons">
+               <a href="https://www.instagram.com/clothees.tone" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://wa.me/59892931533" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+           </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        © 2026 Clothees.Tone - Todos los derechos reservados
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
