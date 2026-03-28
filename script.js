@@ -1,5 +1,5 @@
 const products = [
-    { id: 1, name: "Pantalon Adidas Rompeviento", price: 950, category: "pantalones", imgs: ["imagenes/rompevientoscolores.jpg"] },
+    { id: 1, name: "Pantalon Adidas Rompeviento", price: 950, category: "pantalones", imgs: ["imagenes/rompevientoscolor.jpg"] },
     { id: 8, name: "Buzo Sol", price: 790, category: "buzos", imgs: ["imagenes/buzoSol.jpg", "imagenes/buzoSolMarron.jpg", "imagenes/buzoSolRosa.jpg"] },
     { id: 9, name: "Sueter tejido", price: 750, category: "buzos", imgs: ["imagenes/variedadDeBuzos.jpg", "imagenes/buzoTejidoAzul.jpg"] },
     { id: 10, name: "Buzo BLS", price: 990, category: "buzos", imgs: ["imagenes/buzoBls.png", "imagenes/buzoBlsColor.png"] },
@@ -13,7 +13,7 @@ const products = [
     { id: 23, name: "Adidas Campus", price: 1500, category: "calzado", imgs: ["imagenes/campus.png"] },
     { id: 24, name: "Puma Deportivo", price: 1500, category: "calzado", imgs: ["imagenes/pumaRosa.png"] },
     { id: 25, name: "New Balance Deportivos", price: 1500, category: "calzado", imgs: ["imagenes/nbDeportivo.jpg"] },
-    { id: 26, name: "New Balance con Plataforma", price: 1500, category: "calzado", imgs: ["imagenes/nbPlataformanegro.png"] },
+    { id: 26, name: "New Balance con Plataforma", price: 1500, category: "calzado", imgs: ["imagenes/nbPlataformanegra.png"] },
     { id: 28, name: "Bikini Fita", price: 390, category: "bikinis", imgs: ["imagenes/bikiniButterAmarillo.jpg", "imagenes/bikiniNegro.jpg", "imagenes/bikiniRojo.jpg"] },
     { id: 29, name: "Bikini Brasil", price: 390, category: "bikinis", imgs: ["imagenes/bikiniVerde.jpg", "imagenes/bikiniAmarillo.jpg"] },
     { id: 30, name: "Bikini Animal Print", price: 390, category: "bikinis", imgs: ["imagenes/bikiniPrint.jpg"] },
